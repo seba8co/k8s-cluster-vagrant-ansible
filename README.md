@@ -8,7 +8,7 @@ vagrant up --provider=libvirt
 
 ## Cluster configuration
 
-You can configure your k8s cluster by editing the CONFIGURATION VARIABLES available in the Vagrantfile.
+You can configure your k8s cluster by editing the configuration variables available in the Vagrantfile.
 
 ## Kubectl configuration
 
