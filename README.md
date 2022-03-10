@@ -26,9 +26,14 @@ master   Ready    control-plane,master   11m   v1.23.4
 node-2   Ready    <none>                 10m   v1.23.4
 ...
 
-## Connection to master (node-1)/worker (node-2) node via ssh
+## Connection to nodes via ssh
+
+For master (node-1):
 
 vagrant ssh node-1
+
+For worker (node-2):
+
 vagrant ssh node-2
 
 Courtesy [krystek17](https://github.com/krystek17)
