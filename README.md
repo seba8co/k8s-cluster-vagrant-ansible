@@ -28,11 +28,19 @@ node-2   Ready    <none>                 10m   v1.23.4
 
 ## Connection to nodes via ssh
 
+<<<<<<< HEAD
 -Master access:
 
 vagrant ssh node-1
 
 -Worker access:
+=======
+For master (node-1):
+
+vagrant ssh node-1
+
+For worker (node-2):
+>>>>>>> a3651347e4da585e531839ddefff0e68ff32e287
 
 vagrant ssh node-2
 
